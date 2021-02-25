@@ -26,6 +26,7 @@ module.exports = {
         name: `assets`,
       },
     },
+    `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {

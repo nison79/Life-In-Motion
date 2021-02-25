@@ -1,6 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import AniLink from "gatsby-plugin-transition-link/AniLink";
+
+
 import styled from "styled-components"
 
 const Layout = ({ location, title, children }) => {
@@ -11,14 +14,14 @@ const Layout = ({ location, title, children }) => {
   if (isRootPath) {
     header = (
       <Heading className="main-heading">
-        <Link to="/">{title}</Link>
+        <AniLink paintDrip to="/" duration={2}>{title}</AniLink>
       </Heading>
     )
   } else {
     header = (
-      <Link className="header-link-home" to="/">
+      <AniLink paintDrip color="lightblue" className="header-link-home" to="/">
         {title}
-      </Link>
+      </AniLink>
     )
   }
 

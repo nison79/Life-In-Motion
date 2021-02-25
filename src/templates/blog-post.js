@@ -1,6 +1,9 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
+import AniLink from "gatsby-plugin-transition-link/AniLink";
+
+
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -46,16 +49,16 @@ const BlogPostTemplate = ({ data, location }) => {
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
+              <AniLink cover to={previous.fields.slug} duration={0.8} bg='white' direction="up" rel="prev">
                 ← {previous.frontmatter.title}
-              </Link>
+              </AniLink>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
+              <AniLink paintDrip to={next.fields.slug} duration={0.5} color='lightpink' rel="next">
                 {next.frontmatter.title} →
-              </Link>
+              </AniLink>
             )}
           </li>
         </ul>

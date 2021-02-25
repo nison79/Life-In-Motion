@@ -1,6 +1,11 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
+import AniLink from "gatsby-plugin-transition-link/AniLink";
+
+
+
+
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -24,6 +29,7 @@ const BlogIndex = ({ data, location }) => {
   }
 
   return (
+    
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Bio />
@@ -40,9 +46,9 @@ const BlogIndex = ({ data, location }) => {
               >
                 <header>
                   <h2>
-                    <Link to={post.fields.slug} itemProp="url">
+                    <AniLink paintDrip to={post.fields.slug} duration={1.1} color='lightgrey'  itemProp="url">
                       <span itemProp="headline">{title}</span>
-                    </Link>
+                    </AniLink>
                   </h2>
                   <small>{post.frontmatter.date}</small>
                 </header>
@@ -60,6 +66,7 @@ const BlogIndex = ({ data, location }) => {
         })}
       </ol>
     </Layout>
+    
   )
 }
 
