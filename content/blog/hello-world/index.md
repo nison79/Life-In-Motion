@@ -1,10 +1,40 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: B/W recent shots.
+date: "2021-01-15T22:12:03.284Z"
+description: "My recent shots are all in monochrome mode and i think this fits with the situation in our lives."
 ---
 
-This is my first post on my new fake blog! How exciting!
+Late evening in the suburb of [Drama](https://el.wikipedia.org/wiki/%CE%94%CF%81%CE%AC%CE%BC%CE%B1_(%CF%80%CF%8C%CE%BB%CE%B7)) city two people are heading to the unknown, a chance to escape the
+disclosure of the day 
+
+![Bicycle](./bicycle.jpg)
+
+The city lights can be mesmerizing sometimes and can create mysterious patterns. Here the buildings are part of the cloud as the highlights of the photo are intense and in the foreground of the picture.
+
+![Bicycle](./buildiings in clouds.jpg)
+
+A crossroad is always a place to have second thoughts. Where are we going ?. Straight - left or right?. You decide the path to your life.
+
+![Bicycle](./cross.jpg)
+
+In long exposure the lights can be a stroke of an artist in the canvas. A bus is coming from the right corner of the picture with  high velocity and instantly paints a stroke of white color in the frame. 
+
+![Bicycle](./road lights.jpg)
+
+My precious daughter Elli is having a sunbath and she enjoys it. Slowly she understands the power of our planet star and I am very happy about it.
+
+![Bicycle](./elli in lights.jpg)
+
+Stella in the kitchen with a bizzare look, looking the camera.
+
+![Bicycle](./stella.jpg)
+
+Elli and the shadow of me as I shooting the scene. The day was full of sunlight and it was great to experiment with shadows of forms.
+
+![Bicycle](./shadow and elli.jpg)
+
+
+<!-- This is my first post on my new fake blog! How exciting!
 
 I'm sure I'll write a lot more interesting things in the future.
 
@@ -164,7 +194,7 @@ Paragraph:
 
     Code
 
-<!-- -->
+
 
     Paragraph:
 
@@ -228,4 +258,4 @@ This paragraph has some `code` in it.
 
 ![Alt Text](https://placehold.it/200x50 "Image Title")
 
-    ![Alt Text](https://placehold.it/200x50 "Image Title")
+    ![Alt Text](https://placehold.it/200x50 "Image Title") -->

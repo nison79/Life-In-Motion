@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Life in Motion`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `George Nikoglou `,
+      summary: `who lives and works in Greece shoots with an Olympus EM5mkII ordinary or not photos of an ordinary or not life.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `gnikoglou79`,
     },
   },
   plugins: [
@@ -24,6 +24,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/assets`,
         name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
+        displayName: false
       },
     },
     {
@@ -60,7 +67,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Life In Motion`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
